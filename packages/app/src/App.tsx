@@ -37,7 +37,7 @@ import {
   KubescapePluginPage,
   KubescapePluginControlsPage,
   KubescapePluginVulnerabilitiesPage,
-} from '@internal/plugin-kubescape-plugin';
+} from '@armosec/backstage-plugin-kubescape';
 import { BackstageTheme, darkTheme } from '@backstage/theme';
 import { ThemeProvider } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
