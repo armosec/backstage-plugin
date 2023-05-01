@@ -6,6 +6,9 @@
   "license": "Apache-2.0",
   "private": false,
   "publishConfig": {
+    "access": "public",
+    "main": "dist/index.esm.js",
+    "types": "dist/index.d.ts",
     "registry": "https://registry.npmjs.org/@zoekn"
   },
   "backstage": {
@@ -62,7 +65,8 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/armosec/backstage-plugin/tree/master/plugins/kubescape-plugin.git",
-    "directory": "plugins/kubescape-plugin"
-  }
+    "url": "github:armosec/backstage-plugin",
+    "directory": "plugins/backstage-plugin"
+  },
+  "module": "./dist/index.esm.js"
 }
