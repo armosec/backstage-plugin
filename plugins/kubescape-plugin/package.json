@@ -9,7 +9,7 @@
     "access": "public",
     "main": "dist/index.esm.js",
     "types": "dist/index.d.ts",
-    "registry": "https://registry.npmjs.org/@zoekn"
+    "registry": "https://registry.npmjs.org/@kubescape-backstage"
   },
   "backstage": {
     "role": "frontend-plugin"
@@ -61,7 +61,8 @@
     "msw": "^1.0.0"
   },
   "files": [
-    "dist"
+    "dist",
+    "config.d.ts"
   ],
   "repository": {
     "type": "git",
